@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Connect to Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Allow page to display correctly on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+          $("#footer").load("footer.html");
+        });
+    </script> 
+  </head>
+  <body>
+
+
+
+    <!-- ======================= PAGE CONTENT ====================================== -->
+
+    <style>
+        @media screen and (max-width: 766px) {
+            .modal-accordion-desk {
+                display: none;
+            }
+            .modal-accordion-mobile {
+                display: block;
+            }
+        }
+        @media screen and (min-width: 767px) {
+            .modal-accordion-desk {
+                display: block;
+            }
+            .modal-accordion-mobile {
+                display: none;
+            }
+        }
+
+    </style>
+
+    <div class="container text-center pt-3">
+        <h1 class="lora-bold" style="color:#397168">Say <span style="color:#bbbd7a"><em>YES</em></span> To The Lifestyle You Desire</h1>
+        <p>At Purium, your health and financial success is interconnected. Enroll today as a Brand Partner and begin living a life beyond your wildest dreams.</p>
+    </div>   
+        
+    <div class="container">
+        <img src="bg.png" alt="The more you share Purium, you create unlimited possibility to earn and help others experience Transformation" class="img-fluid">
+    </div>
+
+    <div style="background-color: #E4EAFF">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-12 col-md-6  text-center text-md-start ">
+                    <h2 class="lora-bold">Lifestyle Subscription + Launch Pack</h2>
+                    <p>Launch Pack Price: <span style="color: #b22066; text-decoration: line-through;">$199</span> FREE</p>
+                </div>
+                <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+                    <div>
+                        <p class="js-bold" style="color:#3a5838">Most Popular Enrollment Option</p>
+                        <a href="#" class="btn" style="width:60%; background-color: #397168; color: white" >Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container pt-2 pb-3">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item p-1" style="border: none;">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                style="background-color: #f5f5f5; border-radius: 15px;">
+                  <em class="lora-bold">What to expect: <span style="color: #657ED6">Month 1 of Lifestyle Subscription</span></em>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img class="img-fluid modal-accordion-desk" src="month1.png" alt="Business Launch Pack, Portable Electric Blender, Ultimate Lifestyle Transformation">
+                    <img class="img-fluid modal-accordion-mobile" src="Month1-m.png" alt="Business Launch Pack, Portable Electric Blender, Ultimate Lifestyle Transformation">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item p-1" style="border: none;">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                style="background-color: #f5f5f5; border-radius: 15px;">
+                    <em class="lora-bold">What to expect: <span style="color: #657ED6">Month 2 of Lifestyle Subscription</span></em>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img class="img-fluid modal-accordion-desk" src="month2.png" alt="Ultimate Lifestyle Transformation - Smart Order Pack">
+                    <img class="img-fluid modal-accordion-mobile" src="Month2-m.png" alt="Ultimate Lifestyle Transformation - Smart Order Pack">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item p-1" style="border: none;">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+                style="background-color: #f5f5f5; border-radius: 15px;">
+                    <em class="lora-bold">What to expect: <span style="color: #657ED6">Month 3 of Lifestyle Subscription</span></em>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img class="img-fluid modal-accordion-desk" src="month3.png" alt="Ultimate Lifestyle Transformation - Smart Order Pack">
+                    <img class="img-fluid modal-accordion-mobile" src="Month3-m.png" alt="Ultimate Lifestyle Transformation - Smart Order Pack">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item p-1" style="border: none;">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"
+                  style="background-color: #f5f5f5; border-radius: 15px;">
+                    <em class="lora-bold">What to expect: <span style="color: #657ED6">Month 4 Beyond of Lifestyle Subscription</span></em>
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <img class="img-fluid modal-accordion-desk" src="month4.png" alt="Ultimate Lifestyle Transformation - Maintenance Smart Order Pack (Daily Core 4)">
+                        <img class="img-fluid modal-accordion-mobile" src="Month4-m.png" alt="Ultimate Lifestyle Transformation - Maintenance Smart Order Pack (Daily Core 4)">
+                    </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    
+    <div class="container">
+        <div>
+            <div class="text-left" style="background-color:#ccdfb4; border-radius: 30px;">
+                <div class="p-4" style="max-width:1200px; margin:auto;">
+                <h3 class="lora-bold text-center text-md-start">The $199 Launch Pack Includes:</h3>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <ul>
+                            <li>Unlimited $50 Gift Codes</li>
+                            <li>Online Superfoods Store</li>
+                            <li>Digital Marketing & Training Flyers</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul>
+                            <li>DREAMS Subscription with Phone App& Upgraded Personal Back Office</li>
+                            <li>Weekly Virtual Trainings</li>
+                            <li>Business & Personal Coaching</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul>
+                        <li>Weekly AND Monthly paychecks</li>
+                        <li>Eligible for $3500* in F.A.S.T. Start Bonuses</li>
+                        <li>Eligible for the Ultimate Business Transformation Promo*</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Other ways to enroll -->
+
+    <div class="container p-5" style="
+    background-color:#ffffff;
+        background-image: url('ornament-bg.png');
+        max-width:100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: black;">
+
+        <div style="max-width:1200px; margin:auto;">
+            <h1 class="lora-bold desktopView text-center text-md-start">Other Ways to Enroll</h1>
+
+            <div class="container">
+                <br><br>
+                    <div class="row">
+                        <div class="col-12 col-md-4 p-3 mobile-text-bigger">
+                            <div class="row">
+                                <div class="d-flex align-items-start justify-content-around align-items-top"><img class="p-2" src="Shape.png" alt="" style="width:40px;"><h5><strong>Featured Pack + Free Launch Pack</strong></h5></div>
+                            </div>   
+                        </div>
+                        <div class="col-12 col-md-4 p-3">
+                            <div class="row">
+                                <ul style="width: fit-content; margin: auto;"><li>Choose a featured pack with a<br>variety of superfoods products</li></ul></div>
+                        </div>
+                        <div class="col-12 col-md-4 p-3 text-center">
+                            <a href="#" class="btn" style="background-color: #397168; color: white">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <div class="p-3"><br></div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-4 p-3 mobile-text-bigger">
+                            <div class="row">
+                                <div class="d-flex align-items-start justify-content-around align-items-top"><img class="p-2" src="Shape.png" alt="" style="width:40px;"><h5><strong>$199 Launch Pack </strong>(no product)<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></h5></div>
+                            </div>   
+                        </div>
+                        <div class="col-12 col-md-4 p-3">
+                            <div class="row">
+                                <ul style="width: fit-content; margin: auto;"><li>No Product included</li></ul></div>
+                        </div>
+                        <div class="col-12 col-md-4 p-3 text-center">
+                            <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#Modal1" style="background-color: #397168; color: white">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="p-3"><br></div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-4 p-3 mobile-text-bigger">
+                            <div class="row">
+                                <div class="d-flex align-items-start justify-content-around align-items-top"><img class="p-2" src="Shape.png" alt="" style="width:40px;"><h5><strong>$49.95 Basic Pack <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></h5></div>
+                            </div>   
+                        </div>
+                        <div class="col-12 col-md-4 p-3">
+                            <div class="row">
+                                <ul style="width: fit-content; margin: auto;"><li>No Product included</li>
+                                <li>Limit 5 $50 Gift Codes</li><li>Access to Marketing &</li><li>Training Materials</li></ul></div>
+                        </div>
+                        <div class="col-12 col-md-4 p-3 text-center">
+                            <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#Modal2" style="background-color: #397168; color: white">Enroll Now</a>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="Modal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="p-5" style="background-color: white;">
+        <div>
+          <h1 class="text-center" style="color:#397168">Are you Sure?</h1>
+        </div>
+        <div class="text-center">
+            <p>If you purchase a featured pack or <strong>$500 worth</strong> of product, you will get a <strong>FREE Launch Pack.</strong></p>
+        </div>
+        <div class="text-center">
+            <div class="row">
+                <div class="col btn" style="height:100%">
+                    <a type="button" style="vertical-align: middle; height:100%"></a>
+                </div>
+                <div class="col btn" style="height:100%">
+                    <a type="button" style="vertical-align: middle; height:100%"></a> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex align-items-stretch"><a href="#" class="btn btn-block d-flex flex-sm-column align-items-center justify-content-center justify-content-sm-center" style="width:100%; background-color: #397168; color: white">No, I want a FREE Launch Pack & products.</a></div>
+                <div class="col d-flex align-items-stretch"><a href="#" class="btn btn-block d-flex flex-sm-column align-items-center justify-content-center justify-content-sm-center" style="width:100%; background-color: #AAAB7A; color: white;">Yes, I want to pay for a $199 Launch Pack.</a></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+<div class="modal fade" id="Modal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="p-5" style="background-color: white;">
+        <div>
+          <h1 class="text-center" style="color:#397168">Are you Sure?</h1>
+        </div>
+        <div class="text-center">
+            <p>Are you sure? If you purchase a featured pack or <strong>$500 worth</strong> of product, you will get a <strong>FREE Launch Pack with unlimited Gift Codes.</strong></p>
+        </div>
+        <div class="text-center">
+            <div class="row">
+                <div class="col btn" style="height:100%">
+                    <a type="button" style="vertical-align: middle; height:100%"></a>
+                </div>
+                <div class="col btn" style="height:100%">
+                    <a type="button" style="vertical-align: middle; height:100%"></a> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex align-items-stretch"><a href="#" class="btn btn-block d-flex flex-sm-column align-items-center justify-content-center justify-content-sm-center" style="width:100%; background-color: #397168; color: white">No, I want unlimited Gift Codes & a Featured Pack with products!</a></div>
+                <div class="col d-flex align-items-stretch"><a href="#" class="btn btn-block d-flex flex-sm-column align-items-center justify-content-center justify-content-sm-center" style="width:100%; background-color: #AAAB7A; color: white;">Yes, I only want 5 Gift Codes without products.</a></div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- View Compensation plan -->
+    <div class="container p-5">
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+            <a href="https://www.puriumcorporate.com/puriumMedia/wp-content/uploads/2023/03/CompensationPlan-RD0323.pdf" class="btn" style="background-color: #8CA3F2; color: white;">View Compensation Plan</a>
+        </div>
+        <br><br>
+        <p><strong>*These figures should not be considered as guarantees or projections of your actual earnings or profits. Any representation or guarantee of earnings would be misleading. Success with Purium results only from successful sales efforts, which require hard work, diligence, leadership. Your success will depend upon how effectively you exercise these qualities.</strong></p>
+        <p>*requires an active smart order subscription (minimum 50 BV).</p>
+    </div>
+
+    <div style="background-color:#CCDFB4;">
+        <br>
+    </div>
+
+    <!-- =========================================================================== -->
+
+
+
+
+    <!-- Load Footer from another file -->
+    <div id="footer"></div>
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
